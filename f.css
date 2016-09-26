@@ -1,0 +1,374 @@
+body{
+background-color:#FAFAFA;
+}
+
+
+ul{
+padding:0;
+}
+
+
+li{
+
+list-style: none;
+
+}
+
+a{
+
+text-decoration: none;
+color:white;
+
+}
+
+/*<!-----------------------top bar--------------------------------------->*/
+.top-bar{
+	background-color:#4D88FF;
+	position:fixed;
+    top:0;
+	left: 0;
+width:100%;
+margin-bottom: 40px;
+color:white;
+}
+.cas{
+	float: left;
+	padding:5px 0 0 5px;
+	margin:0;
+	font-size: 1.2em;
+}
+
+
+.mobile-m{
+width: 27px;
+margin-top: 5px;
+float: right;
+margin-right: 5px;
+-webkit-transition: max-height 0.4s;
+-ms-transition: max-height 0.4s;
+-moz-transition: max-height 0.4s;
+-o-transition: max-height 0.4s;
+
+}
+
+nav ul{
+margin-top: 0;
+overflow:hidden;
+}
+nav ul li:hover{
+opacity:.2;
+}
+nav ul li{
+margin: 20px;
+list-style: none;
+text-align: center;
+margin-top: 0;
+padding-top: 20px;
+font-size: 2em;
+}
+
+
+nav ul{
+max-height:0;
+}
+
+.show{
+max-height:20em;
+
+}
+
+
+/*<!-----------------------about--------------------------------------->*/
+
+
+
+
+
+
+
+
+
+
+#about{
+
+width:100%;
+
+background: url("img/CLEF2.png")bottom  left no-repeat ,url("img/white2.png")  right no-repeat ;
+background-size: 50%,80%;
+
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+
+#about p{
+display: inline-block;
+margin:0;
+text-align: center;
+height:90px;
+padding-top:60px;
+font-size:1.2em;
+font-weight:bold;
+}
+
+.mainImg{
+	padding-top:7%; 
+	width:40%;
+	display: inline-block;
+	margin-top:20px;
+	margin-bottom: -5px;
+}
+
+.artist{
+	float:left;
+	font-family: 'Fugaz One', cursive;
+	padding:5%;
+}
+	
+.coder{
+	float:right;
+	
+	
+}
+
+.code-dl{
+display: none;
+visibility: hidden;
+}
+
+
+/*<http://www.adhamdannaway.com/!-----------------------porfolio--------------------------------------->*/
+
+#portfolioPics {
+
+width:100%;
+
+}
+
+.bb{
+width:100%;
+border-radius:3%;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+#portfolioPics li{
+background-color:white;
+margin:0 auto;
+width:80%;
+padding:10px;
+border-radius:3%;
+margin-bottom:20px;
+
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+#portfolioPics  li p{
+text-align:center;
+margin:10px;
+font-family: 'Libre Baskerville', serif;
+}
+
+
+.topp{
+text-align:center;
+margin:20px;
+font-size:2em;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2);
+font-family: 'Lobster Two', cursive;
+}
+
+
+.hideOnSmall{
+
+display: none;
+visibility: hidden;
+font-family: 'Squada One', cursive;
+
+}
+
+
+
+/*<http://www.adhamdannaway.com/!-----------------------contacts--------------------------------------->*/
+.logos li{
+
+float: right;
+display: inline-block;
+
+}
+.logos img{
+
+width:30px;
+
+margin: 5px;
+
+}
+
+
+/*<http://www.adhamdannaway.com/!-----------------------MEDIA QUERY 377 AND UP--------------------------------------->*/
+
+@media only screen and (min-width: 377px) {
+
+#about p{
+font-size: 2em;
+
+}
+
+
+#portfolioPics ul{
+	width: 90%;
+	margin: 0 auto;
+	padding-left: 5%;
+}
+
+#portfolioPics li{
+background-color:white;
+
+
+width:43%;
+padding:10px;
+border-radius:3%;
+margin-bottom:20px;
+display: inline-block;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+/*<http://www.adhamdannaway.com/!-----------------------MEDIA QUERY 430 AND UP--------------------------------------->*/
+
+@media only screen and (min-width: 430px) {
+.top-bar{
+
+
+
+}
+.mainImg{
+
+margin: 0;
+margin:-5px;
+}
+
+
+}
+
+
+
+/*<http://www.adhamdannaway.com/!-----------------------MEDIA QUERY 640 AND UP--------------------------------------->*/
+
+@media only screen and (min-width: 640px) {
+
+.cas{
+	font-size: 2em;
+}
+
+
+
+.handle{
+
+display:none;
+}
+
+.top-bar{
+
+
+height: 55px;
+}
+
+nav ul{
+max-height:10em;
+text-align: center;}
+
+nav ul li{
+display: inline-block;
+padding-top: 10px;
+font-size: 1.5em;
+margin:10px;
+}
+
+
+
+/*<http://www.adhamdannaway.com/!-----------------------MEDIA QUERY 700 AND UP--------------------------------------->*/
+
+@media only screen and (min-width: 700px) {
+
+.hideOnSmall{
+
+display: block;
+visibility: visible;
+
+}
+
+.code-dl{
+display: block;
+visibility: visible;
+font-size: .6em;
+padding:5px; 
+
+
+}
+
+.purple{
+	
+	color:purple;
+	}
+
+.blue{
+	color:blue;
+}
+
+.gray{
+	color:gray;
+	}
+
+.red{
+	color:red;
+	
+}
+
+.yellow{
+	color:#66ccff;
+	
+	
+}
+
+}
+/*<http://www.adhamdannaway.com/!-----------------------MEDIA QUERY 800 AND UP--------------------------------------->*/
+
+@media only screen and (min-width: 800px) {
+
+
+
+.code-dl{
+display: block;
+visibility: visible;
+font-size: 1em;
+padding:5px; 
+
+
+}
+
+/*<http://www.adhamdannaway.com/!-----------------------MEDIA QUERY 1140 AND UP--------------------------------------->*/
+
+@media only screen and (min-width: 1140px) {
+
+
+body{
+max-width: 1080px;
+margin: 0 auto !important;
+float: none !important;
+}
+
+nav ul{
+max-width: 1080px;
+margin: 0 auto !important;
+float: none !important;
+}
+
+
+
+
+
+
+
+}
+
